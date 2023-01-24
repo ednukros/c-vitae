@@ -1,12 +1,13 @@
 export const CV = {
-    hero: {
+    person: {
         name: "Inma",
+        lastName: "Sánchez Menarguez",
         adress: "Avda. Murcia, 18",
         city: "Albatera / Alicante",
         email: "isanmenarguez@gmail.com",
         birthDate: "25/01/1990",
         phone: "(+12) 767333841",
-        image: "https://i.imgur.com/ZQAkED3.png",
+        image: "inma.jpg",
         gitHub: "https://github.com/tonystark",
         aboutMe: [{
                 info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
