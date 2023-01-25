@@ -1,11 +1,18 @@
-// import { CV } from '../CV/cv'
 import './App.scss';
-import Header from './components/Header';
+import Contact from './components/Contact/Contact';
+import Header from './components/Header/Header';
+import {CV} from './CV/cv.js'
 
 function App() {
+
+  //destructuring de cv
+  const { person, education, experience, languages, habilities } = CV;
+
   return (
-    <div className="App">
-      <Header />
+    <div className="app">
+      <Header person={person}/>
+      <Contact contact={person} />
+    
     </div>
   );
 }

@@ -7,8 +7,9 @@ export const CV = {
         email: "isanmenarguez@gmail.com",
         birthDate: "25/01/1990",
         phone: "(+12) 767333841",
-        image: "inma.jpg",
+        image: "../assets/inma.jpg",
         gitHub: "https://github.com/tonystark",
+        linkedin: "esto es el linkedin",
         aboutMe: [{
                 info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             },

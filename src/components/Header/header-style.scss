@@ -1,0 +1,17 @@
+.header{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    .header__container-img{
+      
+        height: 200px;
+
+        .header__img{
+            border-radius: 50%;
+            height:100%;
+        }
+
+    }
+}
