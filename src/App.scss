@@ -1,8 +1,21 @@
-.app{
+.app {
     padding: 20px;
 
-    .main{
+    .main {
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
+
+        .main__buttons {
+           display: flex;
+           justify-content: center;
+            .btn {
+                border: none;
+                margin: 2px;
+                padding: 20px;
+                border-radius: 25px;
+            }
+        }
+
     }
 }
