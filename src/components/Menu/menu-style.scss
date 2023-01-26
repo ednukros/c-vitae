@@ -11,7 +11,7 @@
     z-index: 9999;
     padding: 0px;
     margin: 0px;
-   
+
 
     .menu__buttons {
         //    display: flex;
@@ -33,7 +33,13 @@
             border-radius: 50%;
             position: absolute;
             text-align: center;
+            cursor: pointer;
+            -webkit-box-shadow: 3px 8px 10px -1px rgba(0, 0, 0, 0.75);
+            box-shadow: 3px 8px 10px -1px rgba(0, 0, 0, 0.75);
+        }
 
+        .btn:hover {
+            opacity: 70%;
         }
 
         .contact {
@@ -45,36 +51,48 @@
             top: 3vh;
             left: -2vh;
         }
+
         .education {
             top: -25vh;
             left: 17vh;
         }
-    
+
         .experience {
             top: -25vh;
             left: -20vh;
         }
-    
+
         .habilities {
             top: -6vh;
             left: 14vh;
         }
-    
-        .languages{
+
+        .languages {
             top: -6vh;
             left: -20vh;
         }
 
-        .me{
-            top: -16vh;
-            left: -1vh;
+        .menu__img-div {
+            position: absolute;
+            margin: 10px;
+            top: -21vh;
+            left: -6vh;
+            height: 133px;
+
+
+            .menu__img-image {
+                border-radius: 50%;
+                height: 100%;
+                -webkit-box-shadow: 3px 8px 10px -1px rgba(0, 0, 0, 0.75);
+                box-shadow: 3px 8px 10px -1px rgba(0, 0, 0, 0.75);
+            }
         }
-    
-       
+
+
+
     }
 
-    
+
 
 
 }
-

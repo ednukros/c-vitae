@@ -2,7 +2,7 @@ import React from 'react'
 
 const Habilities = ({habilities}) => {
   return (
-    <div>
+    <div className='c-habilities'>
     <h3>Habilities</h3>
     {habilities.map ((hab) => {
 
