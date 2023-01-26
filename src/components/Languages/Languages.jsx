@@ -1,8 +1,9 @@
 import React from 'react'
+import './languages.scss'
 
 const Languages = ({languages}) => {
     return (
-        <div>
+        <div className='c-languages'>
             <h3>Languages</h3>
             {languages.map((lang) => {
 
