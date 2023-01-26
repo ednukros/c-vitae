@@ -1,42 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto:wght@100&display=swap');
+
 .menu {
+    height: auto;
+    left: 55vh;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 25vh;
     // display: flex;
     // flex-direction: column;
     // justify-content: space-around;
 
     width: 40vw;
-    height: auto;
-    position: absolute;
-    top: 25vh;
-    left: 55vh;
     z-index: 9999;
-    padding: 0px;
-    margin: 0px;
 
 
     .menu__buttons {
+        height: 10vw;
+        left: 50%;
         //    display: flex;
         //    justify-content: center;
 
         position: absolute;
-        width: 10vw;
-        height: 10vw;
-        left: 50%;
-        transform: translateX(-50%);
         top: 40vh;
+        transform: translateX(-50%);
+        width: 10vw;
 
 
         .btn {
             border: none;
-            margin: 2px;
-            height: 80px;
-            width: 80px;
             border-radius: 50%;
-            position: absolute;
-            text-align: center;
-           font-size: 10px;
-            cursor: pointer;
             -webkit-box-shadow: 3px 8px 10px -1px rgba(0, 0, 0, 0.75);
             box-shadow: 3px 8px 10px -1px rgba(0, 0, 0, 0.75);
+            cursor: pointer;
+            font-family: 'Raleway', sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+            height: 80px;
+            margin: 2px;
+            position: absolute;
+            text-align: center;
+            width: 80px;
         }
 
         .btn:hover {
@@ -44,48 +48,48 @@
         }
 
         .contact {
-            top: -36vh;
             left: -2vh;
+            top: -36vh;
         }
 
         .about {
-            top: 3vh;
             left: -2vh;
+            top: 3vh;
         }
 
         .education {
-            top: -25vh;
             left: 17vh;
+            top: -25vh;
         }
 
         .experience {
-            top: -25vh;
             left: -20vh;
+            top: -25vh;
         }
 
         .habilities {
-            top: -6vh;
             left: 14vh;
+            top: -6vh;
         }
 
         .languages {
-            top: -6vh;
             left: -20vh;
+            top: -6vh;
         }
 
         .menu__img-div {
-            position: absolute;
-            margin: 10px;
-            top: -21vh;
-            left: -6vh;
             height: 133px;
+            left: -6vh;
+            margin: 10px;
+            position: absolute;
+            top: -21vh;
 
 
             .menu__img-image {
                 border-radius: 50%;
-                height: 100%;
                 -webkit-box-shadow: 3px 8px 10px -1px rgba(0, 0, 0, 0.75);
                 box-shadow: 3px 8px 10px -1px rgba(0, 0, 0, 0.75);
+                height: 100%;
             }
         }
 
