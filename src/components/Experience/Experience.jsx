@@ -1,8 +1,10 @@
 import React from 'react'
+import './experience-style.scss'
+
 
 const Experience = ({experience}) => {
   return (
-    <div>
+    <div className='c-experience'>
     <h3>Experience</h3>
     {experience.map((exp) => {
         return(<div>

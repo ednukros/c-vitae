@@ -1,8 +1,9 @@
 import React from 'react'
+import './education-style.scss' 
 
 const Education = ({education}) => {
   return (
-    <div>
+    <div className='c-education'>
         <h3>Education</h3>
         {education.map((educ) => {
             return(<div>

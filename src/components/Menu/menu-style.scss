@@ -1,0 +1,80 @@
+.menu {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-around;
+
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    top: 25vh;
+    left: 55vh;
+    z-index: 9999;
+    padding: 0px;
+    margin: 0px;
+   
+
+    .menu__buttons {
+        //    display: flex;
+        //    justify-content: center;
+
+        position: absolute;
+        width: 10vw;
+        height: 10vw;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 40vh;
+
+
+        .btn {
+            border: none;
+            margin: 2px;
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            position: absolute;
+            text-align: center;
+
+        }
+
+        .contact {
+            top: -36vh;
+            left: -2vh;
+        }
+
+        .about {
+            top: 3vh;
+            left: -2vh;
+        }
+        .education {
+            top: -25vh;
+            left: 17vh;
+        }
+    
+        .experience {
+            top: -25vh;
+            left: -20vh;
+        }
+    
+        .habilities {
+            top: -6vh;
+            left: 14vh;
+        }
+    
+        .languages{
+            top: -6vh;
+            left: -20vh;
+        }
+
+        .me{
+            top: -16vh;
+            left: -1vh;
+        }
+    
+       
+    }
+
+    
+
+
+}
+

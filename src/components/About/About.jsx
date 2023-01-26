@@ -5,7 +5,7 @@ const About = ({ about }) => {
 
   console.log(about);
   return (
-    <div>
+    <div className='c-about'>
       <h3>ABOUT ME</h3>
       {about.map((aboutMe, index) => {
 
