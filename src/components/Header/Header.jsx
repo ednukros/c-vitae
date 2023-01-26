@@ -10,7 +10,7 @@ return (
             <img className='header__img' src={person.image} alt="foto mia" />
         </div>
         <h1>{person.name} </h1>
-        <h2>{person.lastName}</h2>
+        {/* <h2>{person.lastName}</h2> */}
     </div>
   )
 }

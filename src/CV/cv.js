@@ -14,10 +14,10 @@ export const CV = {
                 info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             },
             {
-                info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                info: " 1 Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             },
             {
-                info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                info: "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             },
            
         ],
