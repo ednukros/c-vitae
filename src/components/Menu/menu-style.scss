@@ -12,7 +12,7 @@
     // justify-content: space-around;
 
     width: 40vw;
-    z-index: 9999;
+    // z-index: 9999;
 
 
     .menu__buttons {
@@ -41,6 +41,11 @@
             position: absolute;
             text-align: center;
             width: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
         }
 
         .btn:hover {
@@ -82,7 +87,7 @@
             height: 133px;
             left: -6vh;
             margin: 10px;
-            position: absolute;
+            position: relative;
             top: -21vh;
 
 

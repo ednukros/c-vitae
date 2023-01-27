@@ -16,12 +16,12 @@ const Menu = () => {
   return (
     <div className='menu'>
       <nav className='menu__buttons'>
-        <button onClick = {() => setActive('contact')} className='btn contact'>contact</button>
-        <button onClick = {() => setActive('about')} className='btn about'>about</button>
-        <button onClick = {() => setActive('education')} className='btn education'>education</button>
-        <button onClick = {() => setActive('experience')} className='btn experience'>experience</button>
-        <button onClick = {() => setActive('habilities')} className='btn habilities'>habilities</button>
-        <button onClick = {() => setActive('languages')} className='btn languages'>languages</button>
+        <button onClick = {() => setActive('contact')} className='btn contact'>Contact</button>
+        <button onClick = {() => setActive('about')} className='btn about'><span>I</span>About</button>
+        <button onClick = {() => setActive('education')} className='btn education'>Education</button>
+        <button onClick = {() => setActive('experience')} className='btn experience'>Experience</button>
+        <button onClick = {() => setActive('habilities')} className='btn habilities'>Habilities</button>
+        <button onClick = {() => setActive('languages')} className='btn languages'>Languages</button>
         <div className='menu__img-div'>
           <img className='menu__img-image' src="https://avatars.githubusercontent.com/u/74204729?v=4" alt="foto" />
         </div>
