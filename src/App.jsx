@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Menu from './components/Menu/Menu';
 import { CV } from './CV/cv.js'
 
+
 function App() {
 
 const { person } = CV;

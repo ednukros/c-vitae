@@ -2,11 +2,11 @@
 
 .menu {
     height: auto;
-    left: 55vh;
+    left: 50%;
     margin: 0px;
     padding: 0px;
     position: absolute;
-    top: 25vh;
+    // top: 50%;
     // display: flex;
     // flex-direction: column;
     // justify-content: space-around;
@@ -17,7 +17,7 @@
 
     .menu__buttons {
         height: 10vw;
-        left: 50%;
+        // left: 50%;
         //    display: flex;
         //    justify-content: center;
 
@@ -49,32 +49,33 @@
 
         .contact {
             left: -2vh;
-            top: -36vh;
+            top: -31vh;
         }
 
         .about {
             left: -2vh;
-            top: 3vh;
+            top: -3vh;
         }
 
         .education {
-            left: 17vh;
+            left: 9vh;
             top: -25vh;
         }
 
         .experience {
-            left: -20vh;
+            left: -14vh;
             top: -25vh;
         }
 
         .habilities {
-            left: 14vh;
-            top: -6vh;
+            left: 10vh;
+            top: -10vh;
         }
 
         .languages {
-            left: -20vh;
-            top: -6vh;
+            left: -15vh;
+            top: -10vh;
+        
         }
 
         .menu__img-div {
