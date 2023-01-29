@@ -4,7 +4,8 @@ import Header from './components/Header/Header';
 import Menu from './components/Menu/Menu';
 import { setHero } from './redux/hero/hero.actions';
 import { CV } from './CV/cv.js'
-import Footer from './components/Footer/Footer';
+import AsideButtons from './components/aside-buttons/AsideButtons';
+
 
 
 function App() {
@@ -21,8 +22,10 @@ function App() {
       <div className='main'>
         
         <Menu />
+        <AsideButtons  person = {person}/>
       </div>
-     <Footer />
+      
+    
     </div>
   );
 }

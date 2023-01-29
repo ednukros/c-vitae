@@ -11,6 +11,9 @@ import { CV } from '../../CV/cv'
 
 const Menu = () => {
   const { person, education, experience, languages, habilities } = CV;
+ 
+
+  
 
   const [active, setActive] = useState('about');
   return (

@@ -9,7 +9,7 @@ export const CV = {
         phone: "(+12) 767333841",
         image: "../assets/inma.jpg",
         gitHub: "https://github.com/tonystark",
-        linkedin: "esto es el linkedin",
+        linkedin: "https://www.linkedin.com/in/ednukros/",
         aboutMe: [{
                 info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             },
@@ -53,21 +53,24 @@ export const CV = {
     ],
     languages: [{
         language: "Español",
-        wrlevel: "Native",
-        splevel: "Native",
+        wrlevel: "Nativo",
+        splevel: "",
     },
     {
         language: "English",
-        wrlevel: "Native",
-        splevel: "Native",
+        wrlevel: "B1",
+        splevel: "",
     }],
     habilities: [
        "HTML5",
        "CSS3",
-       "Node js",
-       "JavaScript",
        "Sass",
+       "JavaScript",
+       "Node js",
+       "React",
+       "Redux",
        "Linux",
+       
     ],
     // volunteer: [{
     //         name: "September Foundation",

@@ -3,8 +3,23 @@
 .c-experience{
     position: relative;
     top: 10vh;
-    left: -52vh;
+    left: -92vh;
     font-family: 'Raleway', sans-serif;
     width: 200px;
+    background-color: white;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 15px;
+    box-shadow: 3px 8px 10px -1px rgb(0 0 0 / 75%);
+    display: flex;
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        font-weight: bold;
+    }
+
 
 }

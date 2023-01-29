@@ -3,7 +3,7 @@ import './header-style.scss'
 
 const Header = ({person}) => {
     
-   
+  
 return (
     <div className='header'>
        

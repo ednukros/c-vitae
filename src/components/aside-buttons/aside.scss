@@ -1,0 +1,37 @@
+.github{
+    background-image: url('../../../public/assets/github.png');
+    
+}
+.linkedin{
+    background-image: url('../../../public/assets/linkedin.png');
+}
+.instagram{
+    background-image: url('../../../public/assets/instagram.png');
+}
+.telegram{
+    background-image: url('../../../public/assets/telegram.png');
+}
+.gmail{
+    background-image: url('../../../public/assets/gmail.png');
+}
+.btn-rs{
+    background-repeat: no-repeat;
+    background-size:cover;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 11px 16px 19px -15px rgb(0 0 0 / 75%);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: flex;
+    margin: 6px;
+    margin-top: 15px;
+    padding: 20px;
+    text-shadow: 2px 2px 2px #000000;
+  
+  
+}
+
+.aside{
+    padding-top: 400px;
+    padding-left: 10px;
+}
