@@ -8,7 +8,7 @@ export const CV = {
         birthDate: "25/01/1990",
         phone: "(+12) 767333841",
         image: "../assets/inma.jpg",
-        gitHub: "https://github.com/tonystark",
+        gitHub: "https://github.com/ednukros",
         linkedin: "https://www.linkedin.com/in/ednukros/",
         aboutMe: [{
                 info: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
